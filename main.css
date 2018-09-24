@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgb(44, 38, 154);
+    padding: 10px 0 10px 0;
+}
+
+ul {
+    text-align: right;
+}
+
+li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+    font-size: 20px;
+}
+
+a {
+    color: paleturquoise;
+    text-decoration: none;
+}
+
+a:last-child {
+    padding-right: 10px;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.block {
+    padding-top: 75px;
+    text-align: center;
+}
+
+.block.intro{
+    padding: 150px 0 100px 0;
+    background-color: paleturquoise;
+    color: rgb(127, 89, 244);
+}
+
+.block.intro h1 {
+    font-size: 70px;
+}
+
+.block.intro h2 {
+    font-size: 60px;
+}
+
+.block.about{
+    padding: 100px 0 100px 0;
+    background-color: rgb(127, 89, 244);
+    color: paleturquoise;
+}
+
+.block.about h1 {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.block.about h3 {
+    font-size: 30px;
+}
+
+.block.projects {
+    padding: 120px 0 120px 0;
+    background-color: paleturquoise;
+    color: rgb(127, 89, 244);
+}
+
+.block.projects h1 {
+    font-size: 50px;
+}
+
+.projects.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project.first {
+    width: 300px;
+}
+
+.project.second {
+    width: 300px;
+}
