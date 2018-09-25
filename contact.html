@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Say Hi to Sarah</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="main.js"></script>
+    <style>
+        main {
+            background-color: #1B2A41;
+            color: rgb(183, 198, 218);
+            margin: 0;
+            padding: 60px 65px 80px 80px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .title {
+            font-size: 45px;
+            text-align: center;
+        }
+        
+        .sns {
+            text-align: center;
+        }
+
+        .sns-github {
+            width: 65px;
+            height: 65px;
+            margin: 0 30px 0 30px;
+            background-color: rgb(105, 131, 154);
+            border: 3px solid rgb(105, 131, 154);
+            border-radius: 2rem;
+        }
+
+        .sns-linkedin {
+            width: 62px;
+            height: 62px;
+            margin: 0 30px 0 30px;
+            background-color: rgb(105, 131, 154);
+            border: 3px solid rgb(105, 131, 154);
+            border-radius: 0.7rem;
+        }
+
+        form {
+            padding: 30px 0 0 430px;
+        }
+
+        .input-box {
+            border: 2px solid rgb(105, 131, 154);
+        }
+
+        .input-box.content {
+            width: 315px;
+            height: 150px;
+        }
+
+        .buttons {
+            margin: 0 40px;
+        }
+
+        .btn {
+            font-size: 25px;
+            font-family: 'Montserrat', sans-serif;
+            border: 5px solid rgb(105, 131, 154);
+            background-color: #0C1821;
+            color: rgb(105, 131, 154);
+            margin: 0 15px;
+            font-weight: 600;
+        }
+
+        .btn:hover {
+            cursor: pointer;
+            background-color: rgb(105, 131, 154);
+            color: #0C1821
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- <p><span class="s">S</span><span class="c">C</span></p> -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="title">Contact</h1>
+        <div class="sns">
+            <a href="https://git.generalassemb.ly/sarahchai" target="_blank"><img class="sns-github" src="./github.png"></a>
+            <a href="https://www.linkedin.com/in/sarah-chai-2bb760a6/" target="_blank"><img class="sns-linkedin" src="./linkedin-black.png"></a>
+        </div>
+        <form action="mailto:sarahchai93@gmail.com" method="post" enctype="text/plain">
+            Name:<br>
+            <input class="input-box name" type="text" name="name" size="50"><br><br>
+            E-mail:<br>
+            <input class="input-box email" type="text" name="mail" size="50"><br><br>
+            Comment:<br>
+            <input class="input-box content" type="text" name="comment"><br><br>
+            <div class="buttons">
+                <input class="btn submit" type="submit" value="Send">
+                <input class="btn reset" type="reset" value="Reset">
+            </div>
+        </form>
+    </main>
+
+</body>
+<footer>
+    <p>&copy; 2018 Sarah Chai</p>
+</footer>
+
+</html>

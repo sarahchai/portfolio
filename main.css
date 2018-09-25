@@ -3,8 +3,8 @@
 }
 
 nav {
-    background-color: rgb(44, 38, 154);
-    padding: 10px 0 10px 0;
+    background-color: #0C1821;
+    padding: 10px 20px 10px 0;
 }
 
 ul {
@@ -17,28 +17,33 @@ li {
     font-size: 20px;
 }
 
-a {
-    color: paleturquoise;
+nav a {
+    color: rgb(183, 198, 218);
     text-decoration: none;
+    padding: 5px;
+    border-radius: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
-a:last-child {
-    padding-right: 10px;
-}
-
-a:hover {
-    font-weight: bold;
+nav a:hover {
+    background-color: rgb(212, 222, 228);
+    color: #0C1821;
 }
 
 .block {
-    padding-top: 75px;
     text-align: center;
+    /* font-family: 'Kalam', cursive; */
+    /* font-family: 'Domine', serif; */
+    /* font-family: 'Hammersmith One', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
 }
 
 .block.intro{
     padding: 150px 0 100px 0;
-    background-color: paleturquoise;
-    color: rgb(127, 89, 244);
+    background-color: #1B2A41;
+    color: rgb(183, 198, 218);
+    /* color: #CCC9DC; */
 }
 
 .block.intro h1 {
@@ -50,9 +55,11 @@ a:hover {
 }
 
 .block.about{
-    padding: 100px 0 100px 0;
-    background-color: rgb(127, 89, 244);
-    color: paleturquoise;
+    padding: 80px 0 80px 0;
+    /* background-color: #CCC9DC; */
+    background-color: rgb(183, 198, 218);
+    color: #324A5F;
+
 }
 
 .block.about h1 {
@@ -60,18 +67,40 @@ a:hover {
     padding-bottom: 20px;
 }
 
+.block.about a {
+    text-decoration: none;
+    color: #324A5F;
+}
+
+.block.about a:hover {
+    /* font-size: larger; */
+    font-style: italic;
+}
+
 .block.about h3 {
     font-size: 30px;
+    width: 1000px;
+    margin: 0 auto;
 }
 
 .block.projects {
     padding: 120px 0 120px 0;
-    background-color: paleturquoise;
-    color: rgb(127, 89, 244);
+    background-color: #324A5F;
+    color: rgb(183, 198, 218);
 }
 
 .block.projects h1 {
     font-size: 50px;
+}
+
+.block.projects a {
+    text-decoration: none;
+    color: rgb(183, 198, 218);
+}
+
+.block.projects a:hover {
+    /* font-size: larger; */
+    font-style: italic;
 }
 
 .projects.wrapper {
@@ -85,4 +114,53 @@ a:hover {
 
 .project.second {
     width: 300px;
+}
+
+.block.contact {
+    display: flex;
+    justify-content: center;
+    background: #0C1821;
+}
+
+.github {
+    width: 50px;
+    height: 50px;
+    margin: 27px 30px 0 30px;
+    background-color: rgb(105, 131, 154);
+    border: 3px solid rgb(105, 131, 154);
+    border-radius: 2rem;
+}
+
+.linkedin {
+    width: 47px;
+    height: 47px;
+    margin: 27px 30px 0 30px;
+    background-color: rgb(105, 131, 154);
+    border: 3px solid rgb(105, 131, 154);
+    border-radius: 0.7rem;
+}
+
+
+.email-emoji {
+    width: 50px;
+    height: 50px;
+    margin: 27px 30px 0 30px;
+    background-color: rgb(105, 131, 154);
+    border: 3px solid rgb(105, 131, 154);
+    border-radius: 2rem;
+}
+
+footer {
+    /* background: rgb(91, 127, 138); */
+    background-color: #0C1821;
+}
+
+footer p {
+    text-align: center;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    padding: 15px 0;
+    color: rgb(105, 131, 154);
 }
