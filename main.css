@@ -20,7 +20,7 @@ li {
 nav a {
     color: rgb(183, 198, 218);
     text-decoration: none;
-    padding: 5px;
+    padding: 10px;
     border-radius: 2rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -50,38 +50,48 @@ nav a:hover {
     font-size: 70px;
 }
 
+.block.intro a {
+    text-decoration: none;
+    color: rgb(183, 198, 218);
+}
+
+.block.intro a:hover {
+    font-style: italic;
+}
+
 .block.intro h2 {
     font-size: 60px;
 }
 
-.block.about{
-    padding: 80px 0 80px 0;
+.block.skills{
+    padding: 80px 130px 80px 130px;
     /* background-color: #CCC9DC; */
     background-color: rgb(183, 198, 218);
     color: #324A5F;
 
 }
 
-.block.about h1 {
+.block.skills h1 {
     font-size: 50px;
     padding-bottom: 20px;
 }
 
-.block.about a {
-    text-decoration: none;
-    color: #324A5F;
-}
-
-.block.about a:hover {
-    /* font-size: larger; */
-    font-style: italic;
-}
-
-.block.about h3 {
+.block.skills h3 {
     font-size: 30px;
-    width: 1000px;
     margin: 0 auto;
 }
+
+.skills-images-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills-image {
+    height: 100px;
+    width: auto;
+}
+
+
 
 .block.projects {
     padding: 120px 0 120px 0;

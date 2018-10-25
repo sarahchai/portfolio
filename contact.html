@@ -47,20 +47,21 @@
         }
 
         form {
-            padding: 30px 0 0 430px;
+            padding: 30px 0 0 370px;
         }
 
         .input-box {
             border: 2px solid rgb(105, 131, 154);
+            font-size: 16px;
+
         }
 
         .input-box.content {
-            width: 315px;
-            height: 150px;
+            margin-bottom: 30px;
         }
 
         .buttons {
-            margin: 0 40px;
+            margin: 0 75px;
         }
 
         .btn {
@@ -97,16 +98,16 @@
     <main>
         <h1 class="title">Contact</h1>
         <div class="sns">
-            <a href="https://git.generalassemb.ly/sarahchai" target="_blank"><img class="sns-github" src="./github.png"></a>
-            <a href="https://www.linkedin.com/in/sarah-chai-2bb760a6/" target="_blank"><img class="sns-linkedin" src="./linkedin-black.png"></a>
+            <a href="https://git.generalassemb.ly/sarahchai" target="_blank"><img class="sns-github" src="images/github.png"></a>
+            <a href="https://www.linkedin.com/in/sarah-chai-2bb760a6/" target="_blank"><img class="sns-linkedin" src="images/linkedin-black.png"></a>
         </div>
         <form action="mailto:sarahchai93@gmail.com" method="post" enctype="text/plain">
-            Name:<br>
+            Name<br>
             <input class="input-box name" type="text" name="name" size="50"><br><br>
-            E-mail:<br>
+            E-mail<br>
             <input class="input-box email" type="text" name="mail" size="50"><br><br>
-            Comment:<br>
-            <input class="input-box content" type="text" name="comment"><br><br>
+            Comment<br>
+            <textarea class="input-box content" rows="10" cols="50" name="content"></textarea>
             <div class="buttons">
                 <input class="btn submit" type="submit" value="Send">
                 <input class="btn reset" type="reset" value="Reset">
